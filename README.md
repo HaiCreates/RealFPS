@@ -16,6 +16,15 @@ Real Tweaks • Real Results • No Placebo
 
 ---
 
+# RealFPS
+
+![Version](https://img.shields.io/badge/version-1.0--beta-green)
+![Platform](https://img.shields.io/badge/platform-Windows-blue)
+![Language](https://img.shields.io/badge/language-Batch-orange)
+![License](https://img.shields.io/badge/license-MIT-yellow)
+
+---
+
 ## 📖 About
 
 RealFPS is a lightweight Windows gaming optimization toolkit built with Batch Script.
