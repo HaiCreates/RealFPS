@@ -128,10 +128,6 @@ if %errorlevel% neq 0 (
 call :SUCCESS "Balanced Power Plan Enabled"
 goto MENU
 
-echo =====================================
-echo GAME MODE
-echo =====================================
-
 :MENU_GAMING
 cls
 
