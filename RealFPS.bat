@@ -44,7 +44,7 @@ call :CHECK_HAGS
 echo.
 
 echo ==================================================
-echo MENU
+call :CENTER_PINK "MENU"
 echo ==================================================
 
 echo.
@@ -91,12 +91,11 @@ echo ==================================================
 
 echo.
 
-echo Welcome to RealFPS.
+call :CENTER "Welcome to RealFPS."
 
 echo.
 
-echo RealFPS is a free and open-source
-echo Windows optimization toolkit.
+call :CENTER "RealFPS is a free and open-source"
 
 echo.
 
@@ -118,11 +117,8 @@ call :CENTER "Real Tweaks | Real Results | No Placebo"
 
 echo.
 
-echo Philosophy:
-
-echo Real Tweaks
-echo Real Results
-echo No Placebo
+call :CENTER "Philosophy        Real Tweaks"
+call :CENTER "Real Results        No Placebo"
 
 echo.
 
@@ -132,12 +128,11 @@ echo =====================================
 
 echo.
 
-echo RealFPS should be run as Administrator.
+call :CENTER_GREEN "RealFPS should be run as Administrator."
 
 echo.
 
-echo Administrator permission is required
-echo for system optimization features.
+call :CENTER_GREEN "Administrator permission is required for system optimization features."
 
 echo.
 
