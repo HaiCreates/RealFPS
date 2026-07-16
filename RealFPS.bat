@@ -2,14 +2,6 @@
 title RealFPS - Windows Gaming Optimizer
 color 0A
 
-net session >nul 2>&1
-if %errorLevel% neq 0 (
-    echo.
-    echo Please run RealFPS as Administrator.
-    pause
-    exit /b
-)
-
 :MENU
 cls
 echo.
