@@ -22,13 +22,19 @@ echo POWER
 echo [1] Ultimate Performance
 echo [2] High Performance
 echo [3] Balanced
+call :CHECK_POWER
+
 echo.
 echo GAMING
 echo [4] Enable Game Mode
 echo [5] Disable Game Mode
+call :CHECK_GAME
+
 echo.
 echo [6] Disable Xbox DVR
 echo [7] Enable Xbox DVR
+call :CHECK_DVR
+
 echo.
 echo [0] Exit
 echo.
@@ -98,3 +104,37 @@ echo.
 echo Xbox DVR Enabled
 pause
 goto MENU
+
+:CHECK_GAME
+
+for /f "tokens=3" %%a in ('reg query "HKCU\Software\Microsoft\GameBar" /v AutoGameModeEnabled 2^>nul') do set gm=%%a
+
+if "%gm%"=="0x1" (
+echo Game Mode: ON
+) else (
+echo Game Mode: OFF
+)
+
+exit /b
+
+
+:CHECK_DVR
+
+for /f "tokens=3" %%a in ('reg query "HKCU\System\GameConfigStore" /v GameDVR_Enabled 2^>nul') do set dvr=%%a
+
+if "%dvr%"=="0x1" (
+echo Xbox DVR: ON
+) else (
+echo Xbox DVR: OFF
+)
+
+exit /b
+
+
+:CHECK_POWER
+
+for /f "tokens=5" %%a in ('powercfg /getactivescheme') do set power=%%a
+
+echo Current Power Plan: %power%
+
+exit /b
