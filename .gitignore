@@ -1,3 +1,17 @@
+# RealFPS generated files
 RealFPS_Log.txt
 RealFPS_Report.txt
+
+# Registry backups
 *.reg
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
