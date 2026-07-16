@@ -101,7 +101,7 @@ echo Windows optimization toolkit.
 echo.
 
 echo =====================================
-echo PROJECT INFORMATION
+call :CENTER_PINK "PROJECT INFORMATION"
 echo =====================================
 
 echo.
@@ -127,7 +127,7 @@ echo No Placebo
 echo.
 
 echo =====================================
-echo IMPORTANT NOTICE
+call :CENTER_PINK "IMPORTANT NOTICE"
 echo =====================================
 
 echo.
@@ -163,7 +163,7 @@ cls
 
 echo.
 echo ==================================================
-echo              START OPTIMIZATION
+call :CENTER_PINK "START OPTIMIZATION"
 echo ==================================================
 
 echo.
@@ -264,8 +264,8 @@ cls
 
 echo.
 echo ==================================================
-echo              STEP 1/3
-echo          SYSTEM PREPARATION
+call :CENTER_PINK "STEP 1/3"
+call :CENTER_PINK "SYSTEM PREPARATION"
 echo ==================================================
 
 echo.
@@ -320,8 +320,8 @@ cls
 
 echo.
 echo ==================================================
-echo              STEP 1/3
-echo          SYSTEM PREPARATION
+call :CENTER_PINK "STEP 1/3"
+call :CENTER_PINK "SYSTEM PREPARATION"
 echo ==================================================
 
 echo.
