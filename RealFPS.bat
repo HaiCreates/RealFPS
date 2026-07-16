@@ -3,9 +3,9 @@ chcp 65001 >nul
 title RealFPS - Windows Gaming Optimizer
 color 07
 
-set VERSION=1.0-beta
-set BUILD=2026.07
-set DEVELOPER=Nguyen Thanh Thiên Hải
+set "VERSION=1.0-beta"
+set "BUILD=2026.07"
+set "DEVELOPER=Nguyen Thanh Thien Hai"
 
 
 :: =====================================
@@ -26,9 +26,9 @@ cls
 
 echo.
 echo ==================================================
-echo                     REALFPS
-echo             Windows Gaming Optimizer
-echo                 Version %VERSION%
+echo                     call :PINK "REALFPS"
+echo             call :WHITE "Windows Gaming Optimizer"
+echo                 call :WHITE "Version %VERSION%"
 echo ==================================================
 
 echo.
@@ -47,19 +47,8 @@ echo ==================================================
 
 echo.
 
-echo [1] Start Optimization
-
-echo.
-
-echo [2] Diagnostics
-
-echo.
-
-echo [3] Information
-
-echo.
-
-echo [0] Exit
+call :CENTER "[1] Start Optimization        [2] Diagnostics"
+call :CENTER "[3] Information               [0] Exit"
 
 echo.
 
@@ -91,8 +80,11 @@ cls
 
 echo.
 echo ==================================================
-echo                     REALFPS
-echo             Windows Gaming Optimizer
+
+call :CENTER "REALFPS"
+call :CENTER "Windows Gaming Optimizer"
+call :CENTER "Version %VERSION%"
+
 echo ==================================================
 
 echo.
@@ -112,23 +104,15 @@ echo =====================================
 
 echo.
 
-echo Project:
-echo RealFPS
+call :CENTER "PROJECT INFORMATION"
 
 echo.
 
-echo Version:
-echo %VERSION%
-
-echo.
-
-echo Build:
-echo %BUILD%
-
-echo.
-
-echo Developer:
-echo %DEVELOPER%
+call :CENTER "RealFPS"
+call :CENTER "Version %VERSION%"
+call :CENTER "Build %BUILD%"
+call :CENTER "Developer %DEVELOPER%"
+call :CENTER "Real Tweaks | Real Results | No Placebo"
 
 echo.
 
@@ -191,8 +175,7 @@ echo The process includes:
 
 echo.
 
-echo STEP 1:
-echo System Preparation
+call :CENTER "STEP 1/3 - SYSTEM PREPARATION"
 
 echo - Create Restore Point
 echo - Hardware Detection
@@ -200,8 +183,7 @@ echo - Recommended Settings
 
 echo.
 
-echo STEP 2:
-echo RealFPS Tweaks
+call :CENTER "STEP 2/3 - REALFPS-TEAWKS"
 
 echo - Power Management
 echo - Gaming Optimization
@@ -209,8 +191,7 @@ echo - GPU Optimization
 
 echo.
 
-echo STEP 3:
-echo Gaming Profile
+call :CENTER "STEP 3/3 - Gaming Profile"
 
 echo - Competitive
 echo - Balanced
@@ -1799,4 +1780,49 @@ echo HAGS: DEFAULT
 )
 
 
+exit /b
+
+
+
+
+
+
+
+:CENTER
+powershell -command "$text='%~1'; $width=50; $pad=[math]::Max(0,($width-$text.Length)/2); Write-Host (' '*$pad+$text)"
+exit /b
+
+
+
+
+
+
+
+:GREEN
+powershell -command "Write-Host '%~1' -ForegroundColor Green"
+exit /b
+
+
+:WHITE
+powershell -command "Write-Host '%~1' -ForegroundColor White"
+exit /b
+
+
+:PINK
+powershell -command "Write-Host '%~1' -ForegroundColor Magenta"
+exit /b
+
+
+:CYAN
+powershell -command "Write-Host '%~1' -ForegroundColor Cyan"
+exit /b
+
+
+:YELLOW
+powershell -command "Write-Host '%~1' -ForegroundColor Yellow"
+exit /b
+
+
+:RED
+powershell -command "Write-Host '%~1' -ForegroundColor Red"
 exit /b
