@@ -83,9 +83,9 @@ cls
 echo.
 echo ==================================================
 
-call :CENTER "REALFPS"
-call :CENTER "Windows Gaming Optimizer"
-call :CENTER "Version %VERSION%"
+call :CENTER_PINK "REALFPS"
+call :CENTER_WHITE "Windows Gaming Optimizer"
+call :CENTER_WHITE "Version %VERSION%"
 
 echo ==================================================
 
