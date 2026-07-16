@@ -23,16 +23,13 @@ call :ENV_CHECK
 :MENU
 cls
 echo.
-echo ██████╗ ███████╗ █████╗ ██╗     ███████╗██████╗ ███████╗
-echo ██╔══██╗██╔════╝██╔══██╗██║     ██╔════╝██╔══██╗██╔════╝
-echo ██████╔╝█████╗  ███████║██║     █████╗  ██████╔╝███████╗
-echo ██╔══██╗██╔══╝  ██╔══██║██║     ██╔══╝  ██╔═══╝ ╚════██║
-echo ██║  ██║███████╗██║  ██║███████╗██║     ██║     ███████║
-echo ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝     ╚══════╝
-echo.
-echo               Windows Gaming Optimizer
-echo                    Version %VERSION%
-echo ==========================================================
+echo ╔══════════════════════════════════════════════╗
+echo ║                    REALFPS                   ║
+echo ║          Windows Gaming Optimizer            ║
+echo ║               Version %VERSION%              ║
+echo ╠══════════════════════════════════════════════╣
+echo ║      Real Tweaks ^| Real Results ^| No Placebo      ║
+echo ╚══════════════════════════════════════════════╝
 echo.
 echo      Real Tweaks ^| Real Results ^| No Placebo
 echo.
