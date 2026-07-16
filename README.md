@@ -1,3 +1,11 @@
+## Safety
+
+RealFPS only applies measurable Windows optimizations.
+
+No services are removed.
+No system files are modified.
+All changes are reversible.
+
 <p align="center">
   <img src="assets/logo.png" width="180">
 </p>
