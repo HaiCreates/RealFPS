@@ -26,9 +26,11 @@ cls
 
 echo.
 echo ==================================================
-echo                     call :PINK "REALFPS"
-echo             call :WHITE "Windows Gaming Optimizer"
-echo                 call :WHITE "Version %VERSION%"
+
+call :CENTER_PINK "REALFPS"
+call :CENTER_WHITE "Windows Gaming Optimizer"
+call :CENTER_WHITE "Version %VERSION%"
+
 echo ==================================================
 
 echo.
@@ -1825,4 +1827,19 @@ exit /b
 
 :RED
 powershell -command "Write-Host '%~1' -ForegroundColor Red"
+exit /b
+
+
+
+
+
+
+
+:CENTER_PINK
+powershell -command "$t='%~1';$p=(' '*((50-$t.Length)/2));Write-Host ($p+$t) -ForegroundColor Magenta"
+exit /b
+
+
+:CENTER_WHITE
+powershell -command "$t='%~1';$p=(' '*((50-$t.Length)/2));Write-Host ($p+$t) -ForegroundColor White"
 exit /b
