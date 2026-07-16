@@ -29,8 +29,12 @@ echo [1] Ultimate Performance
 echo [2] High Performance
 echo [3] Balanced
 call :CHECK_POWER
-
 echo.
+
+echo SYSTEM
+echo [8] Create Restore Point
+echo.
+
 echo GAMING
 echo [4] Enable Game Mode
 echo [5] Disable Game Mode
@@ -53,6 +57,7 @@ if "%choice%"=="4" goto GAMEON
 if "%choice%"=="5" goto GAMEOFF
 if "%choice%"=="6" goto DVR_OFF
 if "%choice%"=="7" goto DVR_ON
+if "%choice%"=="8" goto RESTORE
 if "%choice%"=="0" exit
 
 echo.
@@ -61,14 +66,14 @@ pause
 goto MENU
 
 :ULTIMATE
-powercfg /setactive 68106fd7-5d79-4e17-8e48-713ab7c45207
+powercfg /setactive e9a42b02-d5df-448d-aa00-03f14749eb61
 echo.
 echo Ultimate Performance Enabled
 pause
 goto MENU
 
 :HIGH
-powercfg /setactive 1f10358b-c5f5-4b94-b01d-5e82dc3e83f4
+powercfg /setactive 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
 echo.
 echo High Performance Enabled
 pause
@@ -111,9 +116,21 @@ echo Xbox DVR Enabled
 pause
 goto MENU
 
+:RESTORE
+
+echo.
+echo Creating Restore Point...
+
+powershell -command "Checkpoint-Computer -Description 'Before RealFPS Tweak' -RestorePointType MODIFY_SETTINGS"
+
+echo.
+echo Restore Point Created
+pause
+goto MENU
+
 :CHECK_POWER
 
-for /f "tokens=5" %%a in ('powercfg /getactivescheme') do set power=%%a
+for /f "tokens=4" %%a in ('powercfg /getactivescheme') do set power=%%a
 
 echo Power Plan: %power%
 
