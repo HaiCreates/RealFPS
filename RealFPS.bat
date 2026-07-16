@@ -6,9 +6,10 @@ color 0A
 cls
 echo.
 echo =====================================
-echo      RealFPS - Windows Gaming Optimizer
+echo   RealFPS - Windows Gaming Optimizer
 echo =====================================
 echo.
+echo POWER
 echo [1] Ultimate Performance
 echo [2] High Performance
 echo [3] Balanced
