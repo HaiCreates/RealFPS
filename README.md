@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="assets/Banner.png" width="100%">
+</p>
+
+# RealFPS
+
+Windows Gaming Optimizer
+
+> Real Tweaks • Real Results • No Placebo
+
 # 🎮 RealFPS
 
 > **Windows Gaming Optimizer**
