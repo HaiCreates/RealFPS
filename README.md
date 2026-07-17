@@ -1,230 +1,102 @@
-# RealFPS
+# 🎮 RealFPS
 
-Windows Gaming Optimizer
+> **Windows Gaming Optimizer**
+>
+> ⚡ Real Tweaks • 📊 Real Results • 🚫 No Placebo
 
-Real Tweaks • Real Results • No Placebo
-
----
-
-## Why RealFPS?
-
-Most Windows optimization tools are full of random tweaks,
-registry hacks and placebo settings.
-
-RealFPS was built with a different philosophy:
-
-- Only measurable optimizations
-- Transparent changes
-- Easy to restore
-- No fake FPS boosts
+![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-blue)
+![Version](https://img.shields.io/badge/Version-v0.1--alpha-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
-## Features
+## 🚀 Why RealFPS?
 
-- Power Plans
-- Game Mode
-- Xbox DVR Management
-- Network Optimization
-- Temp Cleaner
-- Gaming Pack
-- System Status
+Most Windows optimization tools are filled with:
+
+❌ Random registry tweaks
+
+❌ Unverified "FPS boosts"
+
+❌ Changes that cannot be restored
+
+❌ Placebo optimizations
+
+RealFPS follows a different philosophy:
+
+✅ Only measurable optimizations
+
+✅ Transparent changes
+
+✅ Easy to restore
+
+✅ No fake FPS boosts
 
 ---
 
-## About The Project
+## ✨ Features
+
+### 🎯 Gaming
+
+- ⚡ Power Plans
+- 🎮 Game Mode Management
+- 📹 Xbox DVR Management
+- 📦 Gaming Pack
+
+### 🛠 Optimization
+
+- 🌐 Network Optimization
+- 🧹 Temp Cleaner
+- 📊 System Status
+
+---
+
+## 📸 Screenshots
+
+Coming soon...
+
+---
+
+## 🧠 About The Project
 
 RealFPS started as a personal project by a graphic design student
 who wanted to learn software development using AI.
 
 The goal was simple:
 
-Build a Windows optimization tool based on research,
-testing and measurable results.
+> Build a Windows optimization tool based on research,
+> testing and measurable results.
 
-<p align="center">
-  <img src="assets/logo.png" width="180">
-</p>
+No magic tweaks.
 
-<div align="center">
+No clickbait.
 
-## Safety
-
-RealFPS only applies measurable Windows optimizations.
-
-No services are removed.
-No system files are modified.
-All changes are reversible.
-
-# ⚡ RealFPS
-
-### Windows Gaming Optimizer
-
-Only Measurable Optimizations  
-Real Tweaks • Real Results • No Placebo
-
-![Version](https://img.shields.io/badge/version-1.0--beta-green)
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-blue)
-![License](https://img.shields.io/badge/license-MIT-yellow)
-![Language](https://img.shields.io/badge/language-Batch-brightgreen)
-
-</div>
-
----
-
-# RealFPS
-
-![Version](https://img.shields.io/badge/version-1.0--beta-green)
-![Platform](https://img.shields.io/badge/platform-Windows-blue)
-![Language](https://img.shields.io/badge/language-Batch-orange)
-![License](https://img.shields.io/badge/license-MIT-yellow)
-
----
-
-## 📖 About
-
-RealFPS is a lightweight Windows gaming optimization toolkit built with Batch Script.
-
-The goal of this project is simple:
-
-- Improve gaming performance using measurable optimizations
-- Avoid placebo tweaks
-- Keep changes transparent and reversible
-- Stay lightweight and easy to use
-
----
-
-## ✨ Features
-
-### ⚡ Power Management
-
-- Ultimate Performance
-- High Performance
-- Balanced
-
-### 🎮 Gaming
-
-- Enable Game Mode
-- Disable Game Mode
-
-### 📹 Xbox DVR
-
-- Enable Xbox DVR
-- Disable Xbox DVR
-
-### 🖥️ GPU
-
-- Enable HAGS
-- Disable HAGS
-
-### 💾 Backup & Recovery
-
-- Create Restore Point
-- Backup RealFPS Settings
-- Restore RealFPS Settings
-
-### 🔧 Diagnostics
-
-- Hardware Detection
-- Gaming Diagnostics
-- System Information Scan
-- Recommendation Engine
-- Report Generator
-
-### 🎯 Gaming Profiles
-
-#### Competitive Gaming Mode
-
-- Ultimate Performance
-- Game Mode ON
-- Xbox DVR OFF
-
-#### Balanced Gaming Mode
-
-- Balanced Power Plan
-- Game Mode ON
-
-#### Battery Saving Mode
-
-- Balanced Power Plan
-- Game Mode OFF
-
----
-
-## 📥 Installation
-
-1. Download `RealFPS.bat`
-2. Right-click the file
-3. Select **Run as Administrator**
-4. Choose the desired optimization
-
----
-
-## 🖼 Screenshot
-
-Coming Soon
-
----
-
-## 📋 Requirements
-
-- Windows 10
-- Windows 11
-- Administrator Privileges
-- PowerShell Enabled
-
----
-
-## ⚠ Disclaimer
-
-RealFPS only applies documented Windows settings.
-
-No hidden registry tweaks.
-
-No telemetry.
-
-No bundled software.
-
-No placebo optimizations.
-
----
-
-## 🚀 Roadmap
-
-### Version 1.1
-
-- Better hardware detection
-- Improved diagnostics
-- Cleaner user interface
-- Additional system checks
-
-### Version 1.2
-
-- Auto optimization recommendations
-- Improved backup system
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-See the LICENSE file for details.
+Just measurable improvements.
 
 ---
 
 ## 👨‍💻 Developer
 
-**Nguyen Thanh Thien Hai**
+Hi, I'm **Hải**.
 
-Graphic Designer • Windows Enthusiast • Performance Tuning Hobbyist
+A Graphic Design student who enjoys exploring technology,
+Windows optimization and software development with AI.
+
+RealFPS is my attempt to prove that curiosity,
+research and persistence can be just as important
+as a computer science degree.
 
 ---
 
-<div align="center">
+## ⭐ Support The Project
 
-### RealFPS
+If you find RealFPS useful:
 
-**Only Measurable Optimizations**
+⭐ Star this repository
 
-</div>
+🐛 Report bugs
+
+💡 Suggest new features
+
+🤝 Share feedback
