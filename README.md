@@ -7,7 +7,7 @@ RealFPS
 </h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/HaiCreates/HaiCreates/main/Banner.png" width="100%">
+  <img src="https://raw.githubusercontent.com/HaiCreates/RealFPS/assets/Banner.png" width="100%">
 </p>
 
 # RealFPS
