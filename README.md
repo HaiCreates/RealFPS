@@ -1,4 +1,16 @@
 <p align="center">
+  <img src="assets/logo.png" width="180">
+</p>
+
+<h1 align="center">
+RealFPS
+</h1>
+
+<p align="center">
+Windows Gaming Optimizer
+</p>
+
+<p align="center">
   <img src="assets/Banner.png" width="100%">
 </p>
 
