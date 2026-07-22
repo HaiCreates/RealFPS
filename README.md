@@ -14,28 +14,14 @@ Windows Gaming Optimizer
 ⚡ Real Tweaks • 📊 Real Results • 🚫 No Placebo
 </p>
 
----
+<p align="center">
 
-# 🌌 Vision
+![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-blue)
+![Version](https://img.shields.io/badge/Version-v2.0.0-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-RealFPS is built with one simple vision:
-
-> Create a transparent Windows optimization platform where users understand every change, every tweak, and every result.
-
-The goal is not to create another "FPS booster" that promises unrealistic performance gains.
-
-RealFPS focuses on:
-
-| Principle | Description |
-|---|---|
-| 📊 Measurable | Tweaks should have understandable effects |
-| 🔍 Transparent | Users know what changes are applied |
-| 🛡 Safe | Restore-friendly system modifications |
-| 🎮 Practical | Focus on real gaming improvements |
-
-Real performance comes from understanding your system.
-
-> Real Tweaks. Real Results. No Placebo.
+</p>
 
 ---
 
@@ -55,7 +41,7 @@ This project combines:
 
 # 🎮 RealFPS
 
-RealFPS is a Windows optimization tool designed to improve gaming performance through measurable system adjustments.
+RealFPS is a Windows gaming optimization tool designed to improve system performance through measurable adjustments.
 
 Unlike many optimization tools that rely on random tweaks, RealFPS focuses on:
 
@@ -70,7 +56,6 @@ Unlike many optimization tools that rely on random tweaks, RealFPS focuses on:
 ---
 
 # 📸 Preview
-
 
 <p align="center">
   <img src="./assets/preview-dashboard.png" width="650">
@@ -89,7 +74,6 @@ Main Dashboard
 <p align="center">
 System Analysis & Optimization Center
 </p>
-
 
 ---
 
@@ -133,7 +117,7 @@ RealFPS is an independent project built from scratch.
 
 The project was inspired by optimization concepts from:
 
-### Chris Titus Tech Windows Utility
+## Chris Titus Tech Windows Utility
 
 Inspired concepts:
 
@@ -141,7 +125,8 @@ Inspired concepts:
 - System cleanup ideas
 - User-controlled optimization
 
-### HoneCtrl / Gaming Optimization Tools
+
+## HoneCtrl / Gaming Optimization Tools
 
 Inspired concepts:
 
@@ -189,16 +174,6 @@ RealFPS is developed with:
 
 ---
 
-# 📦 Version
-
-![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-blue)
-![Version](https://img.shields.io/badge/Version-v2.0.0-green)
-![Status](https://img.shields.io/badge/Status-Active-success)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
-
----
-
 # ⭐ Support RealFPS
 
 If you find RealFPS useful:
@@ -207,7 +182,6 @@ If you find RealFPS useful:
 🐛 Report bugs  
 💡 Suggest improvements  
 🤝 Share feedback  
-
 
 ---
 
