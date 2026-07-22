@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/Logo.png" width="180">
-</p>
-
 <h1 align="center">
 RealFPS
 </h1>
