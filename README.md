@@ -66,7 +66,7 @@ RealFPS focuses on:
   <img src="./assets/preview-dashboard.png" width="650">
 
 <p align="center">
-System Analysis & Optimization Center
+Dasboard
 </p>
 
 ---
